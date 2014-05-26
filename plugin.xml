@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="de.mine.e4.allinone"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="de.mine.e4.allinone">
+         </property>
+         <property
+               name="applicationXMI"
+               value="de.mine.e4.allinone/Application.e4xmi">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/de.mine.e4.allinone/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
